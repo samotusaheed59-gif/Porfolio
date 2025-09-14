@@ -26,6 +26,8 @@
        font-size: 35px;
        margin-top: 33px;}
        span{color:white;}
+
+
        main{background-color: rgb(19, 19, 54);
        height: 300px;
        width: 100%;
@@ -38,11 +40,23 @@
        color:rgb(167, 204, 221);
        font-size:40px;}
 
-       p{font-size: 22px;color:white;text-align: center;}
-       button{margin-left: 600px;height: 30px;width:100px;border-radius: 5px;
-       cursor: pointer;background-color:rgb(167, 204, 221);
+       p{font-size: 22px;color:white;
+       text-align: center;}
+
+
+       button{margin-left: 600px;
+       height: 30px;
+       width:100px;
+       border-radius: 5px;
+       cursor: pointer;
+       background-color:rgb(167, 204, 221);
+       position: relative;
        }
-       .you{background-color:rgb(66, 31, 163);width: 600px;margin-left: 20px;height: 120px;}
+       .you{background-color:rgb(66, 31, 163);
+       width: 600px;
+       margin-right: 20px;
+       height: 120px;}
+
        .line{display: flex;gap:80px;}
        h5{color:white;}
        .gosh{
@@ -126,23 +140,6 @@ border: 2px solid rgb(124, 191, 223);
   gap:20px;
 
 }
-        @media only screen and (max-width: 767px) {
-        body{
-            font-size:14px;
-                  }
-        {
-            flex-direction:column;
-        }
-        }
-
-         @media only screen and (min-width: 768px) {
-        body{
-            font-size:14px;
-                  }
-        {
-            flex-direction:row;
-        }
-        }
 .tink a{
   color: rgb(124, 191, 223);
   margin-top: 15px;
@@ -181,17 +178,176 @@ border: 2px solid rgb(124, 191, 223);
   margin-left:10px;
 
 }
-        
-@media (min-width: 600px) {
+/*
+@media (min-width: 400px) {
   header{
     width:50%;
+    background-color: rgb(21, 21, 88);width:100%;text-align: right;
+   height: 100px;
+        
   }
+}*/
+
+@media only screen and (min-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    
+  
 }
-@media (min-width: 600px) {
-  body{
-    width:50%;
-  }
+
+@media only screen and (max-width: 767px) {
+    body{
+        font-size: 14px;   
+    }
+    nav{float: right;
+       margin-right: 25px;
+        margin-top: 35px;
+        justify-content: space-between;
+        display: flex;
+        gap:20px;
+       } 
+       header h1{
+         text-align: right;
+         margin-left: 0%;
+         font-size: 30px;
+       }
+.aboutme a{
+  margin-left: 190px;
 }
+
+       .you{background-color:rgb(66, 31, 163);
+       width: 300px;
+       margin-right: 20px;
+       height: 80px;}
+
+       .line{display: flex;gap:80px;}
+
+
+       section{
+         display: inline;
+         width: 400px;
+       }
+       .lent{
+         width:500px;
+       }
+       .menu{
+         position: relative;
+       }
+
+       main{background-color: rgb(19, 19, 54);
+       height: 300px;
+       width: 100%;
+       font-size: 15px;
+     
+       padding-top: 10px;}
+        
+       button{margin-left: 200px;
+       height: 30px;
+       width:100px;
+       border-radius: 5px;
+       cursor: pointer;
+       background-color:rgb(167, 204, 221);
+       position: relative;
+       }
+       .stress{
+         display: flex;
+         
+         width: 50px;
+         
+       }
+       .took{
+         width: 440px;
+       }
+       .stress h3{
+         font-size: 30px;
+       }
+       .stress p{
+         font-size: 10px;
+       }
+       .stress .you{
+         width:200px;
+         height: 100px;
+         position: relative;
+         justify-content: space-between;
+         gap:5px;
+       }
+  .you{
+  width:50px;
+         height: 100px;
+         position: relative;
+         
+         margin-right: 100px;
+         padding: -20px;
+         
+         
+}
+.stress .you h3{
+  font-size:20px;
+}
+
+.gosh .like{background-color:rgb(66, 31, 163);
+       width: 600px;
+       padding-right: 110px;
+       margin-right: 20px;
+       height: 125px;}
+.new .you{
+  width:190px;
+         height: 125px;
+         position: relative;
+         justify-content: right;
+         margin-left: 80px;
+         padding: -20px;
+         
+         
+}
+.line .you{
+  width:190px;
+         height: 125px;
+         position: relative;
+         justify-content: right;
+         
+         padding: -20px;
+         
+         
+}
+.stress h3{
+         font-size: 11px;
+       }
+
+.second p{
+         font-size: 10px;
+       }
+.second{
+  width:100px;
+         height: 100px;
+         position: relative;
+         left:0;
+       margin-top: 50px; 
+       margin-right: 500px;
+         justify-content: left;
+         margin-bottom: 50px;
+         
+
+
+}
+.you{
+       width: 600px;
+       margin-right: 20px;
+       height: 120px;}
+
+
+       .boxs{
+         width:100px;
+         margin-right: 5px;
+       }
+       
+       
+
+}
+
+
+
 
 .gosh a{
   font-size:16px;
@@ -206,12 +362,19 @@ button{
   border:2px solid rgb(100, 188, 223);
   box-shadow:rgb(100, 188, 223);
 }
+.new{
+  margin-right: -17px;
+  
+  position: relative;
+  display: flex;
+}
 
 
 
     </style>
 </head>
-<body>  
+<body>
+  <div class="lent">
     <header>
         <h1 style="float:left;color:rgb(100, 188, 223)">ADE'S TECH
    
@@ -226,42 +389,61 @@ button{
    
 
 </header>
+
+<div class="menu">
 <main>
     <h2><span>Hi,i'm</span> Samotu A. Saheed</h2>
     <p>i craft interactive and responsive using HTML,CSS,JASCRIPT, and REACT.</p>
-  <button>View Projects</button></a> 
+    <button>View Projects</button>
+    
 </main>
+</div>
   
 
    <section>
     <p style="text-align:left;font-size:20px;margin-left: 25px;">Projects</p>
+
+    <div class="stress">
        <div class="line">
        <div class="you">
        <h3>Quiz app</h3>
        <p>A responsive quiz app using javascript.</p>
-       <a href="https://samotusaheed59-gif.github.io/quiz-website/">View Demo</a>
+       <a href="file:///C:/Users/hp/Desktop/New%20folder%20(2)/quiz22.html#">View Demo</a>
     </div>
+    
     <div class="you">
         <h3>SignUp page</h3>
         <p>This personal Porfolio website you're viewing now.</p>
-        <a href="https://samotusaheed59-gif.github.io/Login-Page/">View Live</a>
+        <a href="C:\Users\hp\Desktop\New folder (2)\youtube.html">View Live</a>
      </div>
-    </div>
-     <div class="gosh">
-     <div class="you">
+
+     
+
+  
+    
+  </section> 
+
+<div class="second">
+  
+    <div class="gosh">
+     <div class="like">
       <h3>Calculator</h3>
       <p>This personal Porfolio website you're viewing now.</p>
-      <a href="https://samotusaheed59-gif.github.io/Calculator/">View Live</a>
+      <a href="file:///C:/Users/hp/Desktop/New%20folder%20(2)/calculator.html">View Live</a>
    </div>
+
+    
+   <div class="new">
    <div class="you">
     <h3>Age Calculator</h3>
     <p>This personal Porfolio website you're viewing now.</p>
     <a href="file:///C:/Users/hp/Desktop/New%20folder%20(2)/calendar.html">View Live</a>
  </div> 
-
-
+</div>
+</div>
     </div>
-   </section> 
+  </div>
+  
 
 
   <div class="took">
@@ -299,10 +481,12 @@ button{
 
   </div>
 
-  
+</div>
 </body>
-
 </html>
+
+  
+
 
 
 
